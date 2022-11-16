@@ -1,0 +1,37 @@
+{
+  "name": "music-quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=development&&webpack serve --open",
+    "dev": "set NODE_ENV=development&&webpack",
+    "build": "set NODE_ENV=production&&webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evakerrigan/music-quiz.git"
+  },
+  "author": "evakerrigan",
+  "license": "ISC",
+  "browserslist": "> 0.25%, not dead",
+  "bugs": {
+    "url": "https://github.com/evakerrigan/music-quiz/issues"
+  },
+  "homepage": "https://github.com/evakerrigan/music-quiz#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "css-loader": "^6.7.2",
+    "mini-css-extract-plugin": "^2.6.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "browserslist": "^4.21.4",
+    "path": "^0.12.7"
+  }
+}
